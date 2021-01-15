@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>prog</OriginalElement>
+  <nodes>
+    <node x="0.0" y="104.0">prog.They</node>
+    <node x="0.0" y="0.0">prog.TheyInterface</node>
+    <node x="237.0" y="0.0">prog.Person</node>
+    <node x="499.0" y="781.0">prog.AmountException</node>
+    <node x="622.0" y="488.0">prog.Color</node>
+    <node x="732.0" y="127.0">prog.Vase</node>
+    <node x="412.0" y="488.0">prog.Flower</node>
+    <node x="6.0" y="343.0">prog.They.Consent</node>
+    <node x="192.0" y="488.0">prog.Location</node>
+    <node x="270.0" y="781.0">prog.LocationException</node>
+    <node x="621.0" y="0.0">prog.Thing</node>
+    <node x="712.0" y="781.0">prog.TimeManager</node>
+    <node x="239.0" y="948.0">prog.Main</node>
+    <node x="0.0" y="614.0">prog.Gun</node>
+    <node x="825.0" y="488.0">prog.Time</node>
+    <node x="0.0" y="488.0">prog.GunInterface</node>
+    <node x="0.0" y="948.0">prog.Utils</node>
+    <node x="510.0" y="127.0">prog.Cup</node>
+    <node x="0.0" y="781.0">prog.Dask</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="prog.They" target="prog.TheyInterface">
+      <point x="0.0" y="-94.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="prog.Gun" target="prog.GunInterface">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="prog.They.Consent" target="prog.They">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="prog.Cup" target="prog.Thing">
+      <point x="0.0" y="-72.5" />
+      <point x="611.0" y="102.0" />
+      <point x="671.5" y="102.0" />
+      <point x="-50.5" y="38.5" />
+    </edge>
+    <edge source="prog.Vase" target="prog.Thing">
+      <point x="0.0" y="-72.5" />
+      <point x="833.0" y="102.0" />
+      <point x="772.5" y="102.0" />
+      <point x="50.5" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6555772994129159" x="490.5" y="501.0" />
+  <SelectedNodes>
+    <node>prog.They.Consent</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
